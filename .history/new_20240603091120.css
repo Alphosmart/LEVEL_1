@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0063dc;
+  color: white;
+  padding: 20px 0;
+}
+
+.logo h1 {
+  display: inline;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a.sign-up {
+  background-color: #ff0084;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hero {
+  background: url("https://live.staticflickr.com/65535/50908487183_8f2a479a50_h.jpg")
+    no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.hero button {
+  background-color: #ff0084;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+  color: #888;
+}
