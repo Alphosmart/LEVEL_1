@@ -9,18 +9,38 @@
     <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css" />
   </head>
   <body>
-    <nav class="nav navbar navbar-expand-lg bg-body-tertiary">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <img src="/svg-export/svgexport-2.svg" alt="" class="nav-link" />
-        </li>
-        <li class="nav-item"><input type="text" placeholder="Search" /></li>
-        <li class="nav-item"><button class="nav-link">Login</button></li>
-        <li class="nav-item"><button class="nav-link">Sign up</button></li>
-      </ul>
-    </nav>
+  
+        <nav class="navbar">
+            <div class="logo"><img src="/svg-export/svgexport-1.svg" alt=""><img src="/svg-export/svgexport-2.svg" alt=""></div>
+            <ul class="nav-links">
+                <li><input type="text" placeholder="Search..."></li>
+                <li><button>Login</button></li>
+                <li><button>Sign up</button></li>
+            </ul>
+        </nav>
+    
+        
+            <div class="hero">
+                <div class="hero-text">
+                  <h2>Find your inspiration.</h2>
+                  <p>
+                    Join the Flickr community, home to tens of billions of photos and 2
+                    million groups.
+                  </p>
+                  <button>Start for free</button>
+                </div>
+                <div class="slideshow">
+                    <div class="slide" style="background-image: url('/images/Barbara_van_der_Linde_Boet_and_Harvey.jpg');"></div>
+                    <div class="slide" style="background-image: url('/images/ines_maria_wingsofvienna.jpg');"></div>
+                    <div class="slide" style="background-image: url('/images/Kris_Peterson_Back_to_The_Future.jpg');"></div>
+                    <div class="slide" style="background-image: url('/images/Rui_Palha_Pigeons_at_Bolhao.jpg');"></div>
+                    <div class="slide" style="background-image: url('/images/Sean_Sweeney_Snow_Beauty.jpg');"></div>
+                </div>
+            </div>
+       
+        
 
-    <section>
+    <!-- <section>
       <div
         style="
           position: absolute;
@@ -86,6 +106,6 @@
         x[myIndex - 1].style.display = "block";
         setTimeout(carousel, 2000); // Change image every 2 seconds
       }
-    </script>
+    </script> -->
   </body>
 </html>
